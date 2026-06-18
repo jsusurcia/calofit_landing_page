@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calofit — Tu ritmo, tus calorías, tus resultados</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============ HEADER ============ -->
+<header id="header">
+  <div class="nav-wrap">
+    <a href="#top" class="brand">
+      <img src="assets/logo-icon.png" alt="Calofit" class="brand-mark">
+      <span class="brand-name">Calofit</span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#objetivos">Objetivos</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#funciones">Funciones</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="https://calofit-frontend-production.up.railway.app/login" target="_blank" class="btn btn-login">Iniciar sesión</a>
+      <a href="#contacto" class="btn btn-primary">Quiero empezar</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-overlay" id="mobileOverlay"></div>
+<div class="mobile-panel" id="mobilePanel">
+  <a href="#objetivos">Objetivos</a>
+  <a href="#como-funciona">Cómo funciona</a>
+  <a href="#funciones">Funciones</a>
+  <a href="#contacto">Contacto</a>
+  <a href="https://calofit-frontend-production.up.railway.app/login" target="_blank" style="margin-top:8px;">Iniciar sesión</a>
+  <a href="#contacto" class="btn btn-primary" style="margin-top:4px; color: white;">Quiero empezar</a>
+</div>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-arc"></div>
+  <div class="hero-arc-2"></div>
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="dot"></span> Sin prisa, con resultados reales</span>
+      <h1>
+        Tu meta no necesita ansiedad,<br>
+        necesita <span class="accent">constancia</span>
+      </h1>
+      <p class="lead">
+        Calofit te ayuda a contar calorías y comidas a tu propio ritmo, ya sea que quieras bajar de peso, ganar masa muscular o simplemente mantenerte. Sin tablas imposibles, sin culpa, solo el paso a paso que sí vas a poder seguir.
+      </p>
+      <div class="hero-ctas">
+        <a href="#contacto" class="btn btn-primary">Hablar con un asesor para empezar</a>
+        <a href="#como-funciona" class="btn btn-ghost-green">Ver cómo funciona</a>
+      </div>
+      <div class="hero-trust">
+        <div class="avatars">
+          <span style="background:#8FAE6E;">M</span>
+          <span style="background:#5BC7D6;">D</span>
+          <span style="background:#1F6B6B;">T</span>
+        </div>
+        <p class="txt">Forma parte de la comunidad y sigue tu progreso con <strong>Calofit</strong></p>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-visual-ring">
+        <img src="assets/logo-icon.png" alt="Calofit" class="hero-logo-img" id="heroLogo">
+        <div class="float-card c1">
+          <span class="ic">🥗</span> Almuerzo registrado
+        </div>
+        <div class="float-card c2">
+          <span class="ic">📈</span> -0.4kg esta semana
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GOALS ============ -->
+<section class="goals section-pad" id="objetivos">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-tag">Tu objetivo, tu ritmo</span>
+      <h2>Tres caminos. Uno es el tuyo.</h2>
+      <p>Calofit ajusta tus metas de calorías y macros según lo que realmente quieres lograr, sin recetas genéricas.</p>
+    </div>
+    <div class="goals-grid">
+      <div class="goal-card down reveal">
+        <div class="arc-icon">⬇️</div>
+        <h3>Bajar de peso</h3>
+        <p>Un déficit calórico calculado para tu cuerpo, sostenible semana a semana, sin pasar hambre ni efecto rebote.</p>
+        <span class="pace-label">Ritmo gradual y constante</span>
+      </div>
+      <div class="goal-card up reveal">
+        <div class="arc-icon">💪</div>
+        <h3>Aumentar masa</h3>
+        <p>Superávit controlado y distribución de macros pensada para construir músculo, no solo para subir la balanza.</p>
+        <span class="pace-label">Ritmo progresivo</span>
+      </div>
+      <div class="goal-card maintain reveal">
+        <div class="arc-icon">⚖️</div>
+        <h3>Mantenerte</h3>
+        <p>Encuentra tu punto de equilibrio y quédate ahí, con seguimiento simple que no se vuelve una obsesión diaria.</p>
+        <span class="pace-label">Ritmo estable</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HOW IT WORKS ============ -->
+<section class="how section-pad" id="como-funciona">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="section-tag">El proceso</span>
+      <h2>De cero a tu primer registro en minutos</h2>
+      <p>Así es como empieza tu camino con Calofit desde el primer contacto.</p>
+    </div>
+    <div class="how-grid">
+      <div class="how-step reveal">
+        <div class="step-num">1</div>
+        <h4>Cuéntanos sobre ti</h4>
+        <p>Escríbenos, cuéntanos qué te motiva y cuáles son tus objetivos.</p>
+      </div>
+      <div class="how-step reveal">
+        <div class="step-num">2</div>
+        <h4>Te damos acceso</h4>
+        <p>Nuestro equipo registra tu cuenta y te entrega tus datos de acceso.</p>
+      </div>
+      <div class="how-step reveal">
+        <div class="step-num">3</div>
+        <h4>Configuramos tu plan</h4>
+        <p>Calculamos tus calorías y macros diarios según tu objetivo real.</p>
+      </div>
+      <div class="how-step reveal">
+        <div class="step-num">4</div>
+        <h4>Registras y avanzas</h4>
+        <p>Anotas tus comidas día a día y ves tu progreso reflejado sin esfuerzo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURES ============ -->
+<section class="features section-pad" id="funciones">
+  <div class="container">
+
+    <div class="features-grid reveal">
+      <div class="feat-visual">
+        <div class="mock-card">
+          <div class="ring-progress">
+            <svg viewBox="0 0 140 140" width="140" height="140">
+              <circle cx="70" cy="70" r="58" fill="none" stroke="#F1EFD9" stroke-width="14"/>
+              <circle cx="70" cy="70" r="58" fill="none" stroke="#5BC7D6" stroke-width="14" stroke-linecap="round"
+                stroke-dasharray="364" stroke-dashoffset="95" transform="rotate(-90 70 70)"/>
+            </svg>
+            <div class="ring-center">
+              <span class="num">1,540</span>
+              <span class="label">kcal de 1,900</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="feat-text">
+        <span class="section-tag">Conteo simple</span>
+        <h3>Mira tu día completo de un solo vistazo</h3>
+        <p>Tu anillo de progreso te muestra exactamente cuánto llevas y cuánto te falta, sin tener que hacer cuentas mentales ni revisar planillas.</p>
+        <ul class="feat-list">
+          <li><span class="check">✓</span> Calorías y macros actualizados en tiempo real</li>
+          <li><span class="check">✓</span> Metas adaptadas a tu objetivo (bajar, subir o mantener)</li>
+          <li><span class="check">✓</span> Visualización clara, sin números abrumadores</li>
+        </ul>
+      </div>
+    </div>
+
+    <div style="height:80px;"></div>
+
+    <div class="features-grid reverse reveal">
+      <div class="feat-visual">
+        <div class="mock-card">
+          <div class="mock-row">
+            <span class="food"><span class="dot" style="background:#8FAE6E;"></span>Avena con frutas</span>
+            <span class="kcal">320 kcal</span>
+          </div>
+          <div class="mock-row">
+            <span class="food"><span class="dot" style="background:#5BC7D6;"></span>Pollo con arroz</span>
+            <span class="kcal">540 kcal</span>
+          </div>
+          <div class="mock-row">
+            <span class="food"><span class="dot" style="background:#1F6B6B;"></span>Batido proteico</span>
+            <span class="kcal">210 kcal</span>
+          </div>
+          <div class="mock-row">
+            <span class="food"><span class="dot" style="background:#D8A35B;"></span>Ensalada mixta</span>
+            <span class="kcal">180 kcal</span>
+          </div>
+        </div>
+      </div>
+      <div class="feat-text">
+        <span class="section-tag">Registro de comidas</span>
+        <h3>Anota cada comida en segundos</h3>
+        <p>Agrega tus comidas del día con su valor calórico de forma rápida, y mantén un historial ordenado de todo lo que vas comiendo.</p>
+        <ul class="feat-list">
+          <li><span class="check">✓</span> Historial diario y semanal de comidas</li>
+          <li><span class="check">✓</span> Organización clara por horario o tipo de comida</li>
+          <li><span class="check">✓</span> Pensado para usarse todos los días, sin fricción</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ PHILOSOPHY ============ -->
+<section class="philosophy">
+  <div class="container philosophy-inner reveal">
+    <span class="quote-mark">"</span>
+    <h3>No se trata de ir rápido. Se trata de no detenerse. Como un buen hábito, lo importante es que se sostenga en el tiempo.</h3>
+    <p class="author">— La filosofía detrás de Calofit</p>
+  </div>
+</section>
+
+<!-- ============ FINAL CTA ============ -->
+<section class="final-cta" id="contacto">
+  <div class="container">
+    <div class="final-cta-card reveal">
+      <div class="arc-deco"></div>
+      <h2>¿Listo para empezar tu progreso?</h2>
+      <p>Contáctate con nuestro equipo y te ayudamos a crear tu cuenta para que empieces a registrar tus comidas hoy mismo.</p>
+      <a id="contact-admin" href="#" target="_blank" class="btn btn-primary">Hablar con un administrador</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <svg class="brand-mark" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" width="38" height="38">
+            <circle cx="32" cy="32" r="29" fill="none" stroke="#5BC7D6" stroke-width="5" stroke-dasharray="148 182" stroke-linecap="round" transform="rotate(-90 32 32)"/>
+            <circle cx="32" cy="33" r="14" fill="#8FAE6E"/>
+          </svg>
+          <span class="brand-name">Calofit</span>
+        </div>
+        <p class="desc">Conteo de calorías y comidas pensado para que tus metas de peso, masa o mantenimiento sean sostenibles, no estresantes.</p>
+      </div>
+      <div>
+        <h5>Navegación</h5>
+        <div class="flinks">
+          <a href="#objetivos">Objetivos</a>
+          <a href="#como-funciona">Cómo funciona</a>
+          <a href="#funciones">Funciones</a>
+        </div>
+      </div>
+      <div>
+        <h5>Contacto</h5>
+        <div class="flinks">
+          <a id="contact-whatsapp" href="mailto:contacto@calofit.com" target="_blank">WhatsApp</a>
+          <a href="https://calofit-frontend-production.up.railway.app/login" target="_blank">Iniciar sesión</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Calofit - PumPanda</span>
+      <span>Todos los derechos reservados</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+<script src="js/whatsapp.js" defer></script>
+
+</body>
+</html>
