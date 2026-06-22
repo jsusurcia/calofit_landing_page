@@ -5,6 +5,7 @@ const MENSAJE  = "Hola, estoy interesado en registrarme en Calofit. \n" +
 
 const btnContacto = document.getElementById("contact-admin");
 const btnWhatsapp = document.getElementById("contact-whatsapp");
+const iconWhatsapp = document.getElementById("contact-whatsapp");
 
 const abrirWhatsApp = (e) => {
   e.preventDefault();
@@ -14,3 +15,4 @@ const abrirWhatsApp = (e) => {
 
 if (btnContacto) btnContacto.addEventListener("click", abrirWhatsApp);
 if (btnWhatsapp) btnWhatsapp.addEventListener("click", abrirWhatsApp);
+if (iconWhatsapp) iconWhatsapp.addEventListener("click", abrirWhatsApp);

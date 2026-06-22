@@ -716,6 +716,12 @@ footer h5{
 footer .flinks{display:flex;flex-direction:column;gap:10px;}
 footer .flinks a{font-size:0.92rem;color:rgba(255,255,255,0.85);transition:color .2s;}
 footer .flinks a:hover{color:var(--cyan-ring);}
+
+.social-icons{display:flex;flex-direction:row;gap:20px;align-items:center;margin-top:4px;}
+.social-icons a{color:rgba(255,255,255,0.75);display:flex;transition:color .2s;}
+.social-icons a:hover{color:var(--green-leaf);}
+.social-icons svg{width:24px;height:24px;fill:currentColor;}
+
 .footer-bottom{
   border-top:1px solid rgba(255,255,255,0.12);
   padding-top:24px;
